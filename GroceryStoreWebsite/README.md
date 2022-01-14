@@ -4,6 +4,7 @@ I contributed mainly to the order list backpage.
 
 To access the backpages through the main pages, you can login as the admin:
 username: admin
+
 password: admin
 
 To add items, make sure to enter one that exists in the store (not case sensitive)
