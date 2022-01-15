@@ -1,0 +1,22 @@
+This folder contais games that I made on Unity. I have completed 2 games and have 1 in the making.
+
+They can all be played using this link: https://tropopica.itch.io/ 
+
+Descriptions of the games:
+
+1) Whale Evolution: This is my first (and completed) Unity game. It is a 10 level game where a whale is faced with obstacles
+                    and the player must choose a feature for the whale to develop to overcome the obstacles.
+                    
+                    In this game, I created all the assets and animations on procreate and wrote all the code in C#.
+                    I learned how to create my own player controls and how to manipulate scnenes and animation in Unity.
+                    
+                    
+2) Matching Game: This game is a simple memory game. There are 5 computer opponents to play against (me and four of my friends). There are different
+                  levels of difficulty depending on who you decide to play against. 
+                  
+                  The levels work as follows:   easy level: the computer chooses cards at random
+                                                medium level: the computer beggins with a small probability of getting a match, and the probability 
+                                                              increases throught the game (To simulate an average player)
+                                                hard level:
+      
+    
