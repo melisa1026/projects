@@ -1,22 +1,38 @@
-This folder contais games that I made on Unity. I have completed 2 games and have 1 in the making.
+This folder contains games that I made on Unity. I have completed 2 games and I am currently working another.
 
 They can all be played using this link: https://tropopica.itch.io/ 
 
 Descriptions of the games:
 
-1) Whale Evolution: This is my first (and completed) Unity game. It is a 10 level game where a whale is faced with obstacles
-                    and the player must choose a feature for the whale to develop to overcome the obstacles.
+1) Whale Evolution: This is my first Unity game. It is a 10 level game where a whale is faced with obstacles
+                    and the player must choose features for the whale to develop in order to overcome the obstacles.
                     
                     In this game, I created all the assets and animations on procreate and wrote all the code in C#.
                     I learned how to create my own player controls and how to manipulate scnenes and animation in Unity.
                     
                     
-2) Matching Game: This game is a simple memory game. There are 5 computer opponents to play against (me and four of my friends). There are different
+2) Matching Game: This is a simple memory game against the computer. There are 5 computer opponents to play against (me and my friends). There are different
                   levels of difficulty depending on who you decide to play against. 
                   
                   The levels work as follows:   easy level: the computer chooses cards at random
                                                 medium level: the computer beggins with a small probability of getting a match, and the probability 
-                                                              increases throught the game (To simulate an average player)
-                                                hard level:
+                                                              increases throught the game (to simulate an average player)
+                                                hard level: as soon as two matching cards have been flipped, the computer matches them on its next turn
+                                                cheater level: the computer plays at the medium level but cheats once in a while by opening three cards in one 
+                                                               turn or by stealing a point from the player.
+                                                               
+                  My sister and I created the drawings and assets on procreate, and I wrote the C# code.
+                  Making this game, I learned how to manipulate GameObjects and their Transform component.
+                 
+                                                               
+3) Poptropica island: As a kid, I loved the game Poptropica, which is an adventure game. It has multiple islands, each one having a different mission. I am creating
+                      one of my own Poptropica islands. In this game the character goes through different scenes, talks to other characters, collects 
+                      objects and uses objects.
+                      This game is about halfway done and still in the making.
+                      
+                      In this game I drew the scenes and characters, and I created C# scripts to manipulate them.
+                      I learned how to make player controls from scratch (walking, running, jumping, croughing), I learned how to use
+                      rigging for animation, how to customize a character, and I learned how to control variables over multiple scenes.
+
       
     
