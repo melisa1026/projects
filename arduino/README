@@ -1,0 +1,8 @@
+This CEGEP project was to build a mini car that scans and drives around a maze, avoiding walls. Unfortunately, this was in the Winter 2019 semester and school went online,
+so the car was never built and tested, but the code and simulation are complete.
+
+I wrote the code with another group member, my part of the project was: 1) control the motor speed and turning depending on how far the walls are through code
+                                                                        2) control the LED
+                                                                        
+This video shows a simulation: The LED is on "Party mode" when no driving straight, but when there is something in the way, it turns red, then shuts off until the way is clear.
+Also, the motors can be seen speeding up, slowing down and turning in opposite or same directions (depending on target destination). https://youtu.be/RxsbimzZI0M
