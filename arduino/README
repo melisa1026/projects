@@ -1,3 +1,5 @@
+* I provided two files with the same code: one is a text file and one is a .ino file.
+
 This CEGEP project was to build a mini car that scans and drives around a maze, avoiding walls. Unfortunately, this was in the Winter 2019 semester and school went online,
 so the car was never built and tested, but the code and simulation are complete.
 
