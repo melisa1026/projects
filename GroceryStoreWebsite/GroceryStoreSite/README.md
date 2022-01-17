@@ -1,5 +1,5 @@
 # 287_Assignment3
-This is a php/html/css/js website that was done as a 6 person group project for school. We ran it through MAMP.
+This is a php/html/css/js website that was done as a 6 person group project for school. We ran it through MAMP (homepage file: "P1.php").
 
 I contributed mainly to the order list backpage.
 
