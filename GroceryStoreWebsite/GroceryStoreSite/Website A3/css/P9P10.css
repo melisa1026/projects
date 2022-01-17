@@ -1,0 +1,131 @@
+
+  .header {
+    text-decoration: none;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(180, 60, 60);
+    color: white;
+    font-size: 20px;
+  }
+
+  .h1 {
+    color : black;
+  }
+
+
+  .nav-link {
+    color:white;
+  }
+
+  .nav-link:hover {
+    color: rgb(0, 0, 0);
+  }
+  table
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 30px;
+  }
+
+th, td, tr
+{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+caption { 
+    color: black;
+    caption-side: top;
+    font-weight: bold;
+    padding: 6px;
+    text-align: left;
+    font-size: 30px;
+}
+
+button
+{
+  margin: auto;
+  font-size: 17px;
+}
+.btn{
+  background: rgb(180, 60, 60);
+  border-radius: 4px;
+  border: 2px solid rgb(180, 60, 60);
+  font-size: 15px;
+}
+
+.btn:hover {
+  background: #c2bebe;
+  color: #fff;
+  border: 2px solid #c2bebe;
+}
+
+#add {
+  width: 101px;
+  height: 42px;
+  margin:auto;
+  display:block;
+}
+
+#edit-delete {
+  width: 70px;
+  height: 18px;
+  text-align: center;
+  margin:auto;
+  display:block;
+  text-align: center;
+  line-height: 20px;
+}
+
+#top_bar {
+  background-color: rgb(180, 60, 60);
+  color: white;
+}
+
+
+.navbar {
+  background-color: #8a2e2e;
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+#P10_button {
+  position:fixed;
+  left: 50%;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: rgb(194, 194, 194);
+}
+
+.navbar-toggler {
+  border-color: white;
+  background-color: #8a2e2e;
+}
+
+.navbar-toggler-icon {
+  vertical-align: middle;
+  color: white;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  background-color: #692222;
+}

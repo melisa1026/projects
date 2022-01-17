@@ -1,0 +1,130 @@
+body{
+    background: #ffffff;
+    font-family:sans-serif;
+    padding-top: 0px;
+}
+
+.login-form{
+    width: 340px;
+    margin: 50px auto;
+  	font-size: 15px;
+}
+
+
+#submit_button{
+    background:rgb(180, 60, 60);
+    border-radius: 4px;
+    border: 2px solid rgb(180, 60, 60);
+    font-size: 15px;
+}
+
+#reset{
+  background:rgb(180, 60, 60);
+  border-radius: 4px;
+  border: 2px solid rgb(180, 60, 60);
+  font-size: 15px;
+}
+  
+  .header {
+    padding: 50px;
+    text-align: center;
+    background-color:rgb(180, 60, 60);
+    color: white;
+    font-size: 20px;
+}
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar{
+    background-color: #8A2E2E;
+    color:white;
+  }
+
+  .nav-link:hover, .navbar-brand:hover {
+    color: rgb(194, 194, 194);
+}
+
+.navbar-toggler {
+    border-color: white;
+    background-color : #8A2E2E;
+  }
+  
+  .navbar-toggler-icon {
+    vertical-align: middle;
+    color: white;
+  }
+  
+  .navbar-toggler:active, .navbar-toggler:hover {
+    background-color: #692222;
+  }
+  
+  .navbar-brand {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#8A2E2E;
+    color: white;
+    text-align: center;
+}
+
+.collapsible {
+  background-color: #8A2E2E;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 23px;
+} 
+
+
+.collapsible:hover{
+    background-color: #692222;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    width : 100%;
+    bottom: 0px;
+    overflow: hidden;
+    color: white;
+    transition: max-height 0.2s ease-out;
+    background-color: #8A2E2E;
+}
+
+#info_button {
+  width : 100%;
+  transition-duration:0.3s;
+}
+
+#top_bar {
+  background-color: rgb(180, 60, 60);
+  color:white;  
+}
+
+div.bottom_row {
+  position: fixed;
+  width : 100%;
+  bottom : 0px; 
+}
+
+

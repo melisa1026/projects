@@ -1,0 +1,201 @@
+body {
+    padding-top: 0px;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background-color:rgb(180, 60, 60);
+    color: white;
+    font-size: 20px;
+}
+
+.container {
+    padding-bottom: 80px;
+    padding-left: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#8A2E2E;
+    color: white;
+    text-align: center;
+}
+
+.weekly_button {
+    background-color: #8A2E2E;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition-duration:0.3s;
+}
+
+.weekly_button:hover {
+    background-color: #692222;
+}
+
+#top_bar {
+    background-color: rgb(180, 60, 60);
+    color:white;  
+}
+
+.navbar {
+    background-color: #8A2E2E;
+    color:white;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: rgb(194, 194, 194);
+}
+
+.navbar-toggler {
+    border-color: white;
+    background-color : #8A2E2E;
+}
+
+.navbar-toggler-icon {
+    vertical-align: middle;
+    color: white;
+}
+
+.navbar-toggler:active, .navbar-toggler:hover {
+    background-color: #692222;
+}
+
+.collapsible {
+    background-color: #8A2E2E;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 23px;
+} 
+
+.collapsible:hover{
+    background-color: #692222;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    width : 100%;
+    bottom: 0px;
+    overflow: hidden;
+    color: white;
+    transition: max-height 0.2s ease-out;
+    background-color: #8A2E2E;
+}
+
+#info_button {
+    width : 100%;
+    transition-duration:0.3s;
+}
+
+div.bottom_row {
+    position: fixed;
+    width : 100%;
+    bottom : 0px; 
+}
+
+#to_cart {
+    position: absolute;
+    top:45px;
+    right:30px;
+    height: 100px;
+    width: 100px;
+    background-image: url("images\\cart.png");
+    background-size: 70px 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: #B43C3C;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition-duration:0.3s;
+}
+
+#to_login {
+    position: absolute;
+    top:45px;
+    right:145px;
+    height: 100px;
+    width: 100px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: #B43C3C;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition-duration:0.3s;
+}
+
+#to_cart:hover, #to_login:hover {
+    background-color: #8A2E2E;
+}
+
+.category_image {
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    transition-duration:0.3s;
+}
+
+.category_image:hover, .product_image:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.product_image {
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    transition-duration:0.3s;
+}
+
+a {color:inherit;}

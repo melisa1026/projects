@@ -1,0 +1,330 @@
+1
+Banana
+images/banana.png
+Quantity: 6 (per bunch)
+Size: 7-8 inches
+Type: Fruit
+Nutritional Source: Potassium, Fiber
+10
+$0.33/190g 
+2
+Apple
+images/apple.png
+Quantity: 48 (per box)
+Size: 2 3⁄4 to 3 1⁄4 inches in diameter
+Type: Fruit
+Nutritional Source: Fiber, Vitamin C
+8
+$0.86/170g
+3
+Tomato
+images/tomato.png
+Sold Individually
+Size: 50 to 70mm in diameter
+Type: Fruit
+Nutritional Source: Fiber, Vitamin C
+7
+$1.76/2g       
+4
+Lettuce
+images/lettuce.png
+Sold Individually
+Size: 8 inches in diameter
+Type: Vegetable
+Nutritional Source: Vitamin A, Vitamin C
+11
+$2.99/8g      
+5
+Carrot
+images/carrot.png
+Quantity: 12 (per bunch)
+Size: 10 inches
+Type: Vegetable
+Nutritional Source: Fiber, Calcium
+15
+$1.99/38g     
+6
+Onion
+images/onion.png
+Sold Individually
+Size: 4.5 inches
+Type: Vegetable
+Nutritional Source: Fiber
+4
+$4.39/300g   
+#
+7
+Eggs
+images/eggs.jpg
+Quantity: 12 (per box)
+Size: 10 inches
+Type: Eggs
+Nutritional Source: Iron
+5
+$3.49/340g           
+8
+Milk
+images/milk.png
+Quantity: 2 bags
+Size: 10 inches
+Type: Dairy
+Nutritional Source: Protein, Calcium
+19
+$6.86/4L             
+9
+Cheese
+images/cheese.png
+Sold Individually
+Size: 27cm
+Type: Dairy
+Nutritional Source: Fat, Calcium
+17
+$5.49/270g       
+10
+Butter
+images/butter.png
+Sold Individually
+Size: 10cm
+Type: Dairy
+Nutritional Source: Fat
+3
+$4.69/454g          
+11
+Yogurt
+images/yogurt.png
+Sold Individually
+Size: 8cm
+Type: Dairy
+Nutritional Source: Protein, Carbs
+13
+$6.99/750g            
+12
+Cream Cheese
+images/cream_cheese.jpg
+Sold Individually
+Size: 8cm
+Type: Dairy
+Nutritional Source: Fat, Carbs
+35
+$5.49/250g 
+#
+13
+Ketchup
+images/ketchup.png
+Sold Individually
+Size: 12cm
+Type: Condiment
+Nutritional Source: Sugar, Sodium
+34
+$3.99/1L           
+14
+Salt
+images/salt.png
+Sold Individually
+Size: 10cm
+Type: Seasoning
+Nutritional Source: Sodium
+3
+$6.49/1.36kg         
+15
+Sugar
+images/sugar.jpg
+Sold Individually
+Size: 15cm
+Type: Condiment
+Nutritional Source: Protein, Carbs
+9
+$3.49/2kg        
+16
+Olive Oil
+images/olive oil.png
+Sold Individually
+Size: 20cm
+Type: Condiment
+Nutritional Source: Fat
+10
+$12.99/1L           
+17
+Spaghetti
+images/spaghetti.jpg
+Sold Individually
+Size: 15cm
+Type: Pasta
+Nutritional Source: Carbs
+15
+$2.39/500g            
+18
+Mayonnaise
+images/mayonnaise.jpg
+Sold Individually
+Size: 13cm
+Type: Condiment
+Nutritional Source: Fat
+67
+$6.49/600g 
+#
+19
+Water
+images/water.png
+Quantity: 15 (per box)
+Size: 15cm
+Type: Beverage
+Nutritional Source: Water
+13
+$4.49/330ml           
+20
+Juice
+images/juice.png
+Sold Individually
+Size: 17cm
+Type: Beverage
+Nutritional Source: Water, Sugar
+8
+$2.79/190g            
+21
+Soft Drink (Coca Cola)
+images/coca-cola.png
+Sold Individually
+Size: 12cm
+Type: Beverage
+Nutritional Source: Sugar
+27
+$1.89/1.25L            
+22
+Coffee
+images/coffee.jpg
+Sold Individually
+Size: 11cm
+Type: Beverage
+Nutritional Source: Micronutrients
+12
+$6.99/100g          
+23
+Tea
+images/tea.png
+Sold Individually
+Size: 10cm
+Type: Beverage
+Nutritional Source: Antioxidants
+18
+$3.49/24oz            
+24
+Almond Milk
+images/almond_milk.jpg
+Quantity: 3 (per box)
+Size: 10cm
+Type: Beverage
+Nutritional Source: Fat, Protein
+3
+$3.70/300g   
+#
+25
+Ground Beef
+images/ground_beef.png
+Sold Individually
+Size: 8cm
+Type: Meat
+Nutritional Source: Protein
+24
+$1.54/100g            
+26
+Chicken
+images/chicken.png
+Sold Individually
+Size: 10cm
+Type: Poultry
+Nutritional Source: Protein
+48
+$12.54/1.6kg           
+27
+Steak
+images/steak.jpg
+Sold Individually
+Size: 9cm
+Type: Meat
+Nutritional Source: Protein
+17
+$8.88/130g            
+28
+Wieners
+images/sausage.png
+Sold Individually
+Size: 8cm
+Type: Meat
+Nutritional Source: Protein
+321
+$5.99/100g          
+29
+Turkey
+images/turkey.jpg
+Sold Individually
+Size: 16cm
+Type: Poultry
+Nutritional Source: Protein
+13
+$61.83/8kg          
+30
+Duck
+images/duck.jpg
+Sold Individually
+Size: 12cm
+Type: Poultry
+Nutritional Source: Protein
+13
+$19.28/500g 
+#
+31
+Popcorn
+images/popcorn.png
+Quantity: 6 (per box)
+Size: 12cm
+Type: Snack
+Nutritional Source: Magnesium, Phosphorus
+3
+$5.59/340g             
+32
+Lays Chips
+images/chips.png
+Sold Individually
+Size: 7cm
+Type: Snack
+Nutritional Source: Fat, Sodium
+8
+$1.89/50g            
+33
+Chocolate
+images/chocolate.png
+Sold Individually
+Size: 12cm
+Type: Snack
+Nutritional Source: Sugar, Protein
+50
+$3.39/135g        
+34
+Cookies
+images/cookies.jpg
+Sold Individually
+Size: 12cm
+Type: Snack
+Nutritional Source: Sugar, Carbohydrates
+23
+$3.99/255g 
+35
+Nuts
+images/nuts.jpg
+Sold Individually
+Size: 13cm
+Type: Snack
+Nutritional Source: Magnesium, Fiber
+43
+$12.99/300g            
+36
+Jell-o
+images/jello.jpg
+Quantity: 2 (per box)
+Size: 7cm
+Type: Snack
+Nutritional Source: Sugar
+17
+$3.29/265g
+#
