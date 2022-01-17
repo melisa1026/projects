@@ -3,7 +3,7 @@
 Hey,
 
 These are some of my projects, some were school projects and some are personal projects. 
-Each folder has a README file with its project descriptions
+Each folder has a README file with its project descriptions.
 
 1) Unity games: I got into making games on Unity in the summer (2020) and this folder contains the games I have made since then. I created the C# scripts, drawings and animations for these games.
 
