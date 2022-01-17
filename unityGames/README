@@ -8,7 +8,7 @@ Descriptions of the games:
                     and the player must choose features for the whale to develop in order to overcome the obstacles.
                     
                     In this game, I wrote all the code in C#, created all the assets and animations on procreate and I made the music on Garage Band.
-                    I learned how to create my own player controls and how to manipulate scnenes and animation in Unity.
+                    I learned how the basics of unity and how to manipulate game objects, scenes and animations.
                     
                     
 2) Matching Game: This is a simple memory game against the computer. There are 5 computer opponents to play against (me and my friends). There are different
@@ -19,7 +19,7 @@ Descriptions of the games:
                                                               increases throught the game (to simulate an average player)
                                                 hard level: as soon as two matching cards have been flipped, the computer matches them on its next turn
                                                 cheater level: the computer plays at the medium level but cheats once in a while by opening three cards in one 
-                                                               turn or by stealing a point from the player.
+                                                               turn, or by stealing a point from the player.
                                                                
                   My sister and I created the drawings and assets on procreate, and I wrote the C# code.
                   Making this game, I learned how to manipulate GameObjects and their Transform component.
