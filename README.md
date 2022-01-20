@@ -13,4 +13,6 @@ Each folder has a README file with its project descriptions.
 
 4) Arduino project: This is an Arduino mini car that avoids bumping into walls, created as a school project. (Unfortunately it was not physically built since school went online in the middle of the semester, but the code is completed with a simulation)
 
-5) Animations: This folder contains animations that I made on Procreate and Flipaclip.
+5) Animations: This folder contains 2D animations that I made on Procreate and Flipaclip.
+
+6) Blender: This folder contains a 3D modeled donut that I made on Blender. A few more of my Blender projects are in the Instagram filters folder.
