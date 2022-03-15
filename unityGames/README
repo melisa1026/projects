@@ -25,14 +25,13 @@ Descriptions of the games:
                   Making this game, I learned how to manipulate GameObjects and their Transform component.
                  
                                                                
-3) Poptropica island: As a kid, I loved the game Poptropica, which is an adventure game. It has multiple islands, each one having a different mission. I am creating
+3) Poptropica island: As a kid, I loved the game Poptropica, which is an adventure game. It has multiple islands, each one having a different mission. I created
                       one of my own Poptropica islands. In this game the character goes through different scenes, talks to other characters, collects 
                       objects and uses objects.
-                      This game is about halfway done and still in the making.
                       
                       In this game I drew the scenes and characters, and I created C# scripts to manipulate them.
                       I learned how to make player controls from scratch (walking, running, jumping, croughing), I learned how to use
-                      rigging for animation, how to customize a character, and I learned how to control variables over multiple scenes.
+                      rigging for animation and how to create character customization..
 
       
     
