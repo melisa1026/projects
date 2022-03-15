@@ -1,7 +1,5 @@
 # my-projects
 
-Hey,
-
 This directory contains some of my projects, some were school projects and some are personal projects. 
 Each folder has a README file with its project descriptions.
 
