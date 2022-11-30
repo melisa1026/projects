@@ -1,5 +1,0 @@
-haytham@google.net,Apple,3,Onion,2,Olive Oil,1,Ground Beef,1,Chocolate,1003
-warda@icloud.ca,Carrot,2,Water,3,Sugar,2,Apple,1,Nuts,4
-mohamed@bing.net,Apple,3,Onion,2,Spaghetti,4,Yogurt,1
-
-,Ketchup,120,Onion,300melipan01@gmail.com,Banana,2
