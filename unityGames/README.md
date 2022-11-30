@@ -2,7 +2,7 @@ This folder contains games that I made on Unity,
 
 I've posed C# scripts here, and the games can be played using this link: https://melpgames.itch.io/ 
 
-Descriptions of the games:
+##Descriptions of the games:
 
 1) Me, Myself & Witch: I made this game for a two week game jam. I learned how to include character customization and drawing features into my games.
                        I made all the art on Procreate and programmed the game on Unity.
