@@ -9,9 +9,10 @@ I've posed C# scripts here, and the games can be played using this link: https:/
                        https://melpgames.itch.io/me-myself-witch 
 
 2) **Matching Game**: This is a simple memory game against the computer. There are different levels of difficulty depending on who you decide to play against. 
+My sister and I drew the assets on procreate, and I wrote the C# code.
                   
       The levels work as follows: <br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*easy level*: the computer chooses cards at random<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*easy level*: the computer chooses cards at random<br/>
       
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*medium level*: the computer beggins with a small probability of getting a match, and the probability increases throughout the <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;game (to simulate an average player)<br/>
@@ -22,7 +23,6 @@ I've posed C# scripts here, and the games can be played using this link: https:/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*cheater level*: the computer plays at the medium level but cheats once in a while by opening three cards in one turn, or by stealing<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a point from the player.
 
-My sister and I drew the assets on procreate, and I wrote the C# code.
 
 Making this game, I learned how to manipulate GameObjects and their Transform component. I also got to think a lot about how to 
 simulate a real person's moves
