@@ -4,13 +4,6 @@ I've posed all the C# scripts here, and the games can be played using this link:
 
 Descriptions of the games:
 
-1) Whale Evolution: This is my first Unity game. It is a 10 level game where a whale is faced with obstacles
-                    and the player must choose features for the whale to develop in order to overcome the obstacles.
-                    
-                    In this game, I wrote all the code in C#, created all the assets and animations on procreate and I made the music on Garage Band.
-                    I learned how the basics of unity and how to manipulate game objects, scenes and animations.
-                    
-                    
 2) Matching Game: This is a simple memory game against the computer. There are 5 computer opponents to play against (me and my friends). There are different
                   levels of difficulty depending on who you decide to play against. 
                   
