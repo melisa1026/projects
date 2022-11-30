@@ -7,7 +7,7 @@ Each folder has a README file with its project descriptions.
 
 2) TechTonic: This is an online shopping website made for school with React/Node.js. 
 
-2) Grocery Store Website: This is an html/js/css/php shopping website, created as a school project.
+2) Grocery Store Website: This is an html/js/css/php shopping website, created as a school project. Repository: https://github.com/Patkeenz/SOEN341_Team3 
 
 3) Instagram filters: These are some filters I made for Instagram on Spark AR. I created functionality in some of the filters using Spark AR's patch editor. I also created 2D and 3D models/simple animations for them.
 
