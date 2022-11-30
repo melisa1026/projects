@@ -6,7 +6,7 @@ This directory contains some of my projects, some were school projects and some 
 
 2) TechTonic: This is an online shopping website made for school with React/Node.js. Repository:  https://github.com/Patkeenz/SOEN341_Team3 
 
-2) Grocery Store Website: This is an html/js/css/php shopping website, created as a school projec. Repository: https://github.com/mikeflof/287_Assignment
+2) Grocery Store Website: This is an html/js/css/php shopping website, created as a school project. Repository: https://github.com/mikeflof/287_Assignment
 
 3) Instagram filters: These are some filters I made for Instagram on Spark AR. (view in folder)
 
