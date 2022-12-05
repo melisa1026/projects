@@ -13,7 +13,7 @@ public class doneDrawing : MonoBehaviour
 
     public void done()
     {
-        // get rig of done and undo buttons, and instructions
+        // get rid of done and undo buttons, and instructions
         // remove line generator
         // poof poof carve animation
         // replace with a more carvy look
