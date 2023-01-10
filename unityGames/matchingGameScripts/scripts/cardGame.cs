@@ -8,31 +8,31 @@ using Random = System.Random;
 
 public class cardGame : MonoBehaviour
 {
-    public Sprite[] images = new Sprite[20];
+    public Sprite[] images = new Sprite[20];                            // card images
 
     public GameObject[] cards = new GameObject[0];
 
-    private int[] openCards = new int[40];   // checks if each card was opened
-    private int[] matches = new int[20];     // checks how many of each sprite was open
+    private int[] openCards = new int[40];                              // checks if each card was opened
+    private int[] matches = new int[20];                                // checks how many of each sprite was open
 
-    private bool findImage = false; // if mercedes found a match
+    private bool findImage = false;                                     // if mercedes found a match
 
     private int turnCount = 0;
-    private float halfLength = 0.75f; // card size
+    private float halfLength = 0.75f;                                   // card size
     private Vector3 mouseSpot;
     private Transform tempTransform;
     private int numFlipped = 0;
     private GameObject flipped1, flipped2;
-    private int matched1, matched2; // used to delete cards after they're matched
+    private int matched1, matched2;                                     // used to delete cards after they're matched
     private bool isMovingCards = false, growing = false, shrinking = false;
     private Random random = new System.Random();
-    private int chosenNum1, chosenNum2; // used by computer
+    private int chosenNum1, chosenNum2;                                 // used by computer
     private int playerScore = 0, compScore = 0;
     public Text playerScoreText, compScoreText, resultText;
 
-    private int spriteNum = 0; // the number on images[] of the sprite that has a match
+    private int spriteNum = 0;                                          // the number on images[] of the sprite that has a match
     private int matchProbability;
-    private int willSheCheat; // random number that determines if sonya will cheat
+    private int willSheCheat;                                           // random number that determines if sonya will cheat
     private string opponent;
     public Animator sonyaAnim;
 
@@ -45,11 +45,10 @@ public class cardGame : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(globalVariables.player + " and " + globalVariables.opponent);
         // set the opponent
         opponent = globalVariables.opponent;
 
-        // choose the sprites for the player
+        // choose the sprite for the player
         if (globalVariables.player == "melisa")
         {
             playerImage.GetComponent<SpriteRenderer>().sprite = characterSprites[0];
@@ -95,18 +94,22 @@ public class cardGame : MonoBehaviour
 
         int count = 0;
 
+        // create 2 cards of each image
         for (int i = 0; i < 20; i++)
         {
             for (int j = 0; j < 2; j++)
             {
-                SpriteRenderer sevenUp = cards[count].GetComponent<SpriteRenderer>();
+                SpriteRenderer sevenUp = cards[count].GetComponent<SpriteRenderer>(); // count is the card number
 
-                sevenUp.sprite = images[i];
+                sevenUp.sprite = images[i]; // image is the number of the sprite
+                
+                // 1 image/2 sprites
 
                 count++;
             }
         }
 
+        // shuffle the positions by going through each card and switching it with a random other card
         for (int i = 0; i < 40; i++)
         {
             int temp = random.Next(40);
@@ -120,11 +123,13 @@ public class cardGame : MonoBehaviour
             drSalt.sprite = temp2;
         }
 
+        // set all cards as unopened
         for (int i = 0; i < 40; i++)
         {
             openCards[i] = 0;
         }
 
+        // set all the matches to unfound
         for (int i = 0; i < 20; i++)
         {
             matches[i] = 0;
@@ -138,6 +143,7 @@ public class cardGame : MonoBehaviour
 
     void Update()
     {
+        // when game just finished
         if ((playerScore + compScore) == 20)
         {
             if (playerScore == compScore)
@@ -151,6 +157,7 @@ public class cardGame : MonoBehaviour
 
             turnCount++;
         }
+        // after game is done
         else if ((playerScore + compScore) > 20)
         {
             StartCoroutine(grow(playerImage));
@@ -159,6 +166,7 @@ public class cardGame : MonoBehaviour
             StartCoroutine(shrink(opponentImage));
 
         }
+        // if the game isn't finished yet
         else
         {
             if (turnCount % 2 == 0)
