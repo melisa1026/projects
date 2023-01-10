@@ -13,7 +13,7 @@ public class cardGame : MonoBehaviour
     public GameObject[] cards = new GameObject[0];
 
     private int[] openCards = new int[40];                              // checks if each card was opened
-    private int[] matches = new int[20];                                // checks how many of each sprite was open
+    private int[] matches = new int[20];                                // checks how many cards from each match have been open
 
     private bool findImage = false;                                     // if mercedes found a match
 
@@ -166,9 +166,10 @@ public class cardGame : MonoBehaviour
             StartCoroutine(shrink(opponentImage));
 
         }
-        // if the game isn't finished yet
+        // game is still in play
         else
         {
+            // player's turn
             if (turnCount % 2 == 0)
             {
                 StartCoroutine(playerTurn());
@@ -177,6 +178,7 @@ public class cardGame : MonoBehaviour
                 StartCoroutine(shrink(opponentImage));
                 
             }
+            // opponent's turn
             else
             {
                 if (opponent == "melisa" || opponent == "evelyn" || opponent == "sonya")
@@ -196,7 +198,7 @@ public class cardGame : MonoBehaviour
 
 
 
-
+    // player's turn: choose two cards
     public IEnumerator playerTurn()
     {
         mouseSpot = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -259,6 +261,7 @@ public class cardGame : MonoBehaviour
          
         }
 
+        // if both cards have been flipped, finish the round
         if (numFlipped == 2)
         {
             numFlipped = 0;
@@ -277,7 +280,9 @@ public class cardGame : MonoBehaviour
                     if (images[k] == spr1)
                         spriteNum = k;
                 }
-                matches[spriteNum] = -1;
+                matches[spriteNum] = -1;    
+                
+                // match the cards
                 StartCoroutine(match(flipped1, flipped2));
             }
             else
@@ -299,10 +304,10 @@ public class cardGame : MonoBehaviour
 
 
 
-    // chooses random each time
+    // Pauline opponent chooses random each time
     public IEnumerator paulineTurn()
     {
-        // prevents ethod from being called more than once a turn
+        // prevents method from being called more than once a turn
         if (isMovingCards == false)
         { 
             // prevents player from moving
@@ -360,7 +365,7 @@ public class cardGame : MonoBehaviour
 
 
 
-    // PS: good luck
+    // Mercedes opponent turn - if a match has been revealed at any point, she will get it on her soonest turn (PS: good luck, she's really hard to beat)
     public IEnumerator mercedesTurn()
     {
 
@@ -374,6 +379,7 @@ public class cardGame : MonoBehaviour
             
             Sprite toOpenSprite = null;
 
+            // if both cards of a match have been opened, choose them
             for (int i = 0; i < 20; i++)
             {
                     if (matches[i] == 2)
@@ -383,6 +389,7 @@ public class cardGame : MonoBehaviour
                         findImage = true;
                     }
             }
+            // if a match was found, go get those two cards
             if (findImage)
             {
                 // reset
@@ -395,6 +402,7 @@ public class cardGame : MonoBehaviour
                 SpriteRenderer Sonya;
                 Sprite Melisa;
 
+                
                 for (int i = 0; i < 40; i++)
                 {
                     if (cards[i] != null)
@@ -415,6 +423,7 @@ public class cardGame : MonoBehaviour
                     }
                 }
             }
+            // if no matching pair has been revealed, choose 2 random cards
             else
             {
                 // choose first card
@@ -462,7 +471,7 @@ public class cardGame : MonoBehaviour
             }
 
             // card 1
-            // if the card has not yet been opened
+            // if the card has not yet been opened previously, mark that it now has
             if (openCards[matched1] == 0)
             {
                 // get the sprite of the opened card
@@ -483,7 +492,7 @@ public class cardGame : MonoBehaviour
             }
 
             // card 2
-            // if the card has not yet been opened
+            // if the card has not yet been opened, mark that it now has
             if (openCards[matched2] == 0)
             {
                 // get the sprite of the opened card
@@ -531,7 +540,7 @@ public class cardGame : MonoBehaviour
 
 
 
-
+    // melisa, sonya or evelyns turn - this simulates an average player who gets more and more matches as the game goes on
     public IEnumerator melEvyTurn()
     {
         // prevents method from being called more than once a turn
