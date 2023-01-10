@@ -32,7 +32,7 @@ https://melpgames.itch.io/matching-game
 In this game I drew the scenes and characters, and I created C# scripts to manipulate them.
 
 I learned how to make player controls from scratch (walking, running, jumping, crouching), I learned how to use
-rigging for animation and how to create character customization.
+rigging for animation and how to make an adventure game.
 https://melpgames.itch.io/tropopica-tropican-plaza 
 
 
