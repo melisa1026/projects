@@ -10,8 +10,7 @@ public class characterCustom : MonoBehaviour
     public GameObject categoryContainer, eyesContainer, noseContainer, mouthContainer, skinContainer, hairContainer, hairColourContainer,
         topContainer, bottomContainer, hatContainer; // the empty game objects that contain the option menus for each customizable part
     public GameObject backButton;
-
-    // public Color red = new Color(0, 0, 0, 1);
+    
 
     // Start is called before the first frame update
     void Start()
@@ -112,6 +111,7 @@ public class characterCustom : MonoBehaviour
         characterInfo.skinColour = skin.GetComponent<SpriteRenderer>().color;
     }
 
+    // switches to different category (top, bottom, hair, ...) pages
     public void goToContainer(string container)
     {
         backButton.SetActive(true);
@@ -163,6 +163,7 @@ public class characterCustom : MonoBehaviour
 
     }
 
+    // switches to the dressup's "category" page
     public void backToCategories()
     {
         backButton.SetActive(false);
