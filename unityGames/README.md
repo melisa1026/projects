@@ -4,7 +4,7 @@ All games can be played using this link: https://melpgames.itch.io/
 
 1) **Me, Myself & Witch**: I made this game for a two week game jam. I learned how to include character customization and drawing features into my games.
                        https://melpgames.itch.io/me-myself-witch 
-
+<br/><br/>
 2) **Matching Game**: This is a simple memory game against the computer. There are different levels of difficulty depending on who you decide to play against. 
                   
       The levels work as follows: <br/><br/>
@@ -24,14 +24,14 @@ Making this game, I learned how to manipulate GameObjects and their Transform co
 simulate a real person's moves
 https://melpgames.itch.io/matching-game 
                  
-                                                               
+<br/><br/>                                                      
 3) **Poptropica island**: As a kid, I loved the game Poptropica, which is an adventure game. I made my own version of it.
                       
 In this game I learned how to make player controls from scratch (walking, running, jumping, crouching), I learned how to use
 rigging for animation and how to make an adventure game.
 https://melpgames.itch.io/tropopica-tropican-plaza 
 
-
+<br/><br/>
 **Fun bonus**: I made the music for my Whale Evolution game with GarageBand:) https://melpgames.itch.io/whale-evolution 
       
     
