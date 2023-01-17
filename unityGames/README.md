@@ -1,4 +1,4 @@
-All games can be played using this link: https://melpgames.itch.io/ 
+For the following games, I used Unity, C# and procreate. They can all be played at: https://melpgames.itch.io/ 
 
 **Descriptions of some games:**
 
