@@ -1,6 +1,6 @@
 # my-projects
 
-This directory contains my resume and some of my projects.
+This directory contains my some of my projects.
 
 1) Unity games: This folder contains games I have made. (view in folder)
 
