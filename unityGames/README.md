@@ -3,11 +3,9 @@ All games can be played using this link: https://melpgames.itch.io/
 **Descriptions of some games:**
 
 1) **Me, Myself & Witch**: I made this game for a two week game jam. I learned how to include character customization and drawing features into my games.
-                       I made all the art on Procreate and programmed the game on Unity.
                        https://melpgames.itch.io/me-myself-witch 
 
 2) **Matching Game**: This is a simple memory game against the computer. There are different levels of difficulty depending on who you decide to play against. 
-My sister and I drew the assets on procreate, and I wrote the C# code.
                   
       The levels work as follows: <br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*easy level*: the computer chooses cards at random<br/>
@@ -29,9 +27,7 @@ https://melpgames.itch.io/matching-game
                                                                
 3) **Poptropica island**: As a kid, I loved the game Poptropica, which is an adventure game. I made my own version of it.
                       
-In this game I drew the scenes and characters, and I created C# scripts to manipulate them.
-
-I learned how to make player controls from scratch (walking, running, jumping, crouching), I learned how to use
+In this game I learned how to make player controls from scratch (walking, running, jumping, crouching), I learned how to use
 rigging for animation and how to make an adventure game.
 https://melpgames.itch.io/tropopica-tropican-plaza 
 
