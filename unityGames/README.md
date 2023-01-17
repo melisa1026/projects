@@ -4,7 +4,7 @@ All games can be played using this link: https://melpgames.itch.io/
 
 1) **Me, Myself & Witch**: I made this game for a two week game jam. I learned how to include character customization and drawing features into my games.
                        https://melpgames.itch.io/me-myself-witch 
-<br/><br/>
+<br/><br/><br/>
 2) **Matching Game**: This is a simple memory game against the computer. There are different levels of difficulty depending on who you decide to play against. 
                   
       The levels work as follows: <br/><br/>
