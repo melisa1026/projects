@@ -10,6 +10,4 @@ This directory contains my some of my projects.
 
 3) Arduino project: This is a school project for an Arduino mini car that avoids bumping into walls. (view in folder)
 
-4) Instagram filters: These are some filters I made for Instagram on Spark AR. (view in folder)
-
-5) Arts: Here is some of my artwork that was made on Procreate, Flipaclip and Blender. https://photos.app.goo.gl/zdHnP5qRFUwAyhoV6  
+4) Arts: Here is some of my artwork that was made on Procreate, Flipaclip and Blender. https://photos.app.goo.gl/zdHnP5qRFUwAyhoV6  
