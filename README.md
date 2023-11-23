@@ -1,4 +1,4 @@
-# my-projects
+# projects
 
 This directory contains my some of my projects.
 
