@@ -9,5 +9,3 @@ This directory contains my some of my projects.
       Website: https://www.interlinked.live/ 
 
 3) Arduino project: This is a school project for an Arduino mini car that avoids bumping into walls. (view in folder)
-
-4) Arts: Here is some of my artwork that was made on Procreate, Flipaclip and Blender. https://photos.app.goo.gl/zdHnP5qRFUwAyhoV6  
